@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心</title>
+    <link href="../static/css/personals.css" rel='stylesheet' type='text/css'/>
+</head>
+<body>
+<div class="pers" style="text-align: center">
+    <h3>个人资料</h3>
+    <a href="{% url 'my_modify' %}">修改资料</a>
+    <ul>
+        <li>
+            <img style="border-radius: 50%" width="50px" height="50px" alt="" src="{{ icon }}">
+        </li>
+        <li>昵称：{{ user.username }}</li>
+        <li>性别：</li>
+        <li>手机号：{{ user.phone }}</li>
+        <li>邮箱：{{ user.email }}</li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../static/css/style.css" rel='stylesheet' type='text/css' />
+</head>
+<body>
+	<div class="main">
+		<div class="login">
+			<h1>注册系统</h1>
+			<div class="inset">
+				<!--start-main-->
+				<form action="{% url 'register' %}" method="post" enctype="multipart/form-data">
+			         <div>
+			         	<h2>用户注册</h2>
+						<span><label>用户名</label></span>
+						<span><input type="text" class="textbox" name="u_name" placeholder="请输入用户名"></span>
+					 </div>
+                     <div>
+						<span><label>手机号</label></span>
+					    <span><input type="text" class="textbox" name="u_phone" placeholder="手机号"></span>
+					 </div>
+                     <div>
+						<span><label>邮箱</label></span>
+					    <span><input type="text" class="textbox" name="u_email" placeholder="邮箱"></span>
+					 </div>
+					 <div>
+						<span><label>密码</label></span>
+					    <span><input type="password" class="password" name="pwd" placeholder="密码"></span>
+					 </div>
+                    <div>
+						<span><label>确认密码</label></span>
+					    <span><input type="password" class="password" name="confirm_pwd" placeholder="确认密码"></span>
+					 </div>
+                    <input type="file" name="u_icon">
+					<div class="sign">
+                        <input type="submit" value="注册" class="submit" />
+					</div>
+                    {% csrf_token %}
+                </form>
+            </div>
+        </div>
+		<!--//end-main-->
+    </div>
+{#<form action="{% url 'register' %}" method="post" style="text-align: center">#}
+{#    <input type="text" placeholder="用户名" name="u_name">#}
+{#    <br>#}
+{#    <input type="text" placeholder="密码" name="pwd">#}
+{#    <br>#}
+{#    <input type="text" placeholder="确认密码" name="confirm_pwd">#}
+{#    <br>#}
+{#    <input type="submit" value="注册">#}
+{#    {% csrf_token %}#}
+{#</form>#}
+</body>
+</html>

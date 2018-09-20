@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../static/css/style.css" rel='stylesheet' type='text/css' />
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="main">
+		<div class="login">
+			<h1>登录系统</h1>
+			<div class="inset">
+				<!--start-main-->
+				<form action="{% url 'my_login_v1' %}" method="post" >
+                    <div>
+			         	<h2>用户登录</h2>
+						<span><label>用户名</label></span>
+						<span><input type="text" class="textbox" name="u_name" placeholder="请输入用户名/手机号/邮箱"></span>
+                    </div>
+                    <div>
+						<span><label>密码</label></span>
+					    <span><input type="password" class="password" name="pwd" placeholder="密码"></span>
+                    </div>
+                    <div><img src="{% url 'get_verify_img' %}" alt="" id="code"></div>
+                    <div>
+						<span><label>验证码</label></span>
+					    <span><input type="password" class="textbox" name="verify_code" placeholder="验证码"></span>
+                    </div>
+                    <div class="sign">
+                        <input type="submit" value="登录" class="submit" >
+                        <a href="{% url 'register' %}" class="submit">注册</a>
+                    </div>
+                    {% csrf_token %}
+                </form>
+            </div>
+        </div>
+		<!--//end-main-->
+    </div>
+
+{#    <form action="{% url 'my_login_v1' %}" method="post" style="text-align: center">#}
+{#        <input type="text" name="u_name" placeholder="请输入用户名">#}
+{#        <br>#}
+{#        <input type="password" name="pwd" placeholder="密码">#}
+{#        <br>#}
+{#        <input type="submit" value="登录">#}
+{#        <a href="{% url 'register' %}">注册</a>#}
+{#        {% csrf_token %}#}
+{##}
+{#    </form>#}
+</body>
+<script>
+        $("#code").click(function () {
+            console.log("被执行了");
+            $(this).attr("src", "/get_verify_img" + Math.random());
+
+        })
+    </script>
+</html>
