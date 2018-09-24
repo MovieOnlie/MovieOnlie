@@ -18,11 +18,16 @@ class Category(models.Model):
     content = models.TextField(verbose_name="类别介绍")
     likes = models.ImageField(verbose_name="点赞数")
 
+    def __str__(self):
+        return self.name
+
 #类别下的视频信息
 class Page(models.Model):
-    name = models.CharField(max_length=30,
+    name = models.CharField(max_length=50,
                             verbose_name="视频名称")
-    icon = models.ImageField(upload_to='icons',null=True,verbose_name="视频预览图")
+    icon = models.URLField(null=True,verbose_name="视频预览图")
     url = models.URLField(verbose_name="视频链接")
     views = models.ImageField(verbose_name="浏览数")
     category = models.ForeignKey('Category',verbose_name="所属类别")
+    def __str__(self):
+        return self.name

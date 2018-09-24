@@ -16,11 +16,12 @@ Including another URLconf
 from django.conf.urls import url,include
 from django.contrib import admin
 from movieapp import search_views
+import xadmin
 
 from haystack import  urls
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    url(r'^xadmin/', xadmin.site.urls),
     url(r'',include('movieapp.url')),
     url(r'^search/', include('haystack.urls')),
 

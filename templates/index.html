@@ -1,6 +1,6 @@
 {%extends 'base.html'%}
 
-{% block title %}假冒伪劣火影忍者中文网{% endblock %}
+{% block title %}MovieOnlie{% endblock %}
 {%block Js%}
 
     {{block.super}}
@@ -34,7 +34,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">热门 <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">排行</a></li>
+        <li><a href="{% url 'seniority' %}">排行</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">分类 <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -47,13 +47,13 @@
                   <li><a href="">{{ i.name }}</a></li>
               {% endfor %}
               <li role="separator" class="divider"></li>
-              <li><a href="#">更多分类</a></li>
+              <li><a href="{% url 'my_content' %}">更多分类</a></li>
           </ul>
         </li>
       </ul>
-      <form class="navbar-form navbar-left">
+      <form class="navbar-form navbar-left" method="post" action="{% url 'my_query' %}">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="鼬神的秘密">
+          <input type="text" class="form-control" placeholder="鼬神的秘密" name="mquery">
         </div>
         <button type="submit" class="btn btn-primary">搜索</button>
       </form>
@@ -83,7 +83,7 @@
 {%endblock%}
 
 {%block banner%}
-<img alt="" src="../static/uploads/icons/timg.jpg" width="1300px" height="620px">
+<img alt="" src="../static/uploads/icons/timg.jpg" width="1286px" height="600px">
 {%endblock%}
 
 {% block footer %}

@@ -34,14 +34,17 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+    # 'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'haystack',
+    'xadmin',
+    'crispy_forms',
     'movieapp',
+
 ]
 
 MIDDLEWARE = [
@@ -156,6 +159,7 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 ADMINS = (
     ('tom', '*******@163.com'),
 )
+MEDIA_URL = '/static/uploads/'
 MEDIA_ROOT=os.path.join(BASE_DIR,r'static/uploads')
 
 HAYSTACK_CONNECTIONS = {
@@ -170,3 +174,6 @@ HAYSTACK_SEARCH_RESULTS_PER_PAGE  =  8
 
 #自动更新索引
 HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+
+
+SESSION_COOKIE_AGE=10

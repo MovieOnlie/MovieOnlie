@@ -9,5 +9,10 @@ urlpatterns = [
     url(r'^get_verify_img', get_verify_img, name='get_verify_img'),
     url(r'^my_person/$', my_person, name='my_person'),
     url(r'^my_modify/$',my_modify,name='my_modify'),
+    url(r'^my_content/$',my_content,name='my_content'),
+    url(r'^my_contentpage/(\d+)$', my_contentpage, name='my_contentpage'),
+    url(r'^my_query/$', my_query, name='my_query'),
+    url(r'^seniority/$', seniority, name='seniority'),
+    url(r'^seniority_test/(\d+)/', seniority_test,name='seniority_test'),
 
 ]

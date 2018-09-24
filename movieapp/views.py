@@ -1,13 +1,16 @@
 from django.template import loader
 from django.contrib.auth import authenticate, login, logout
+
+from helper import week_rank
 from .my_util import get_random_str,get_random_color
 from django.core.cache import cache
+from django.views.decorators.cache import cache_page
 import uuid
 import hashlib
 from .models import MyUser
 from .models import Category,Page
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.conf import settings
 from django.core.mail import send_mail
 from PIL import Image, ImageDraw, ImageFont
@@ -17,7 +20,7 @@ import io
 
 # Create your views here.
 
-
+#生成随机字符串
 def get_str():
     uuid_val = uuid.uuid4()
     uuid_str = str(uuid_val).encode("utf-8")
@@ -25,6 +28,8 @@ def get_str():
     md5.update(uuid_str)
     return md5.hexdigest()
 
+
+#生成随机图片验证码
 def get_verify_img(req):
     #画布背景颜色
     bg_color = get_random_color()
@@ -54,25 +59,25 @@ def get_verify_img(req):
     #将缓存区的内容，返回给前端
     return HttpResponse(buf.getvalue(),'image/png')
 
+
+#主页面
 def my_index(req):
     cate_gory = Category.objects.all()[:8]
     user = req.user
-    # 初始化 默认值
-    is_login = False
-    user_name = ""
-    u_icon = ""
-    # 判断用户user 是不是MyUser的实例
+    print(user.username)
     if isinstance(user, MyUser):
         # 如果判断通过说明是登录过
-        is_login = True
         # 拼接用户头像 req.get_host() 拿到前端浏览器地址栏里输入域名加端口
-        u_icon = "http://{host}/static/uploads/{icon_url}".format(
+        u_icon = "http://{host}{icon_url}".format(
             host=req.get_host(),
             icon_url=user.icon.url
         )
-    return render(req,'index.html',{'u_name':user.username,'category':cate_gory,'icon':u_icon})
+        # print(u_icon)
+        return render(req,'index.html',{'u_name':user.username,'category':cate_gory,'icon':u_icon})
+    return render(req,'index.html',{'category':cate_gory})
 
 
+#注册功能
 def register(req):
     if req.method =="GET":
         return render(req,"register.html")
@@ -118,6 +123,9 @@ def register(req):
                 return render(req,'my_login.html')
         else:
             return HttpResponse("账号密码格式错误")
+
+
+#邮箱激活
 def active(req,random_str):
     res = cache.get(random_str)
     print(res)
@@ -127,6 +135,9 @@ def active(req,random_str):
         return HttpResponse(res + "激活成功")
     else:
         return HttpResponse("验证连接无效")
+
+
+#登录功能
 def my_login_v1(req):
     if req.method == 'GET':
         return render(req,'my_login.html')
@@ -146,11 +157,8 @@ def my_login_v1(req):
             if user:
                 if server_code.lower() == code.lower():
                     login(req,user)
-                    user_now = req.user
                     # 初始化 默认值
                     is_login = False
-                    user_name = ""
-                    u_icon = ""
                     # 判断用户user 是不是MyUser的实例
                     if isinstance(user, MyUser):
                         # 如果判断通过说明是登录过
@@ -160,37 +168,118 @@ def my_login_v1(req):
                             host=req.get_host(),
                             icon_url=user.icon.url
                         )
-                    return  render(req,'index.html',{'u_name':user_now.username,'category':cate_gory,'icon':u_icon})
+                    return redirect('my_index')
             else:
                 return HttpResponse("账号密码错误或未注册")
         else:
             return HttpResponse("请补全信息")
 
+
+#登出功能
 def new_logout(req):
     logout(req)
     return HttpResponse("退出成功")
     # return redirect('new_index')
 
+
 # 个人中心
 def my_person(req):
     user = req.user
-    u_icon = "http://{host}/static/uploads/{icon_url}".format(
+    u_icon = "http://{host}{icon_url}".format(
         host=req.get_host(),
         icon_url=user.icon.url
     )
     return render(req, 'personal.html', {'user': user, 'icon': u_icon})
 
 
+#修改个人资料
 def my_modify(req):
     if req.method == 'GET':
-        return render(req,'modify.html')
+        return render(req, 'modify.html')
     else:
         user = req.user
         params = req.POST
-        npwd = params.get('newpwd')
-        if npwd == user.password or npwd == '':
-            return HttpResponse("密码设置失败")
+        npwd = params.get("npassword")
+        qphone = params.get("qphone")
+        print(npwd)
+        if npwd == user.password and len(npwd) > 3:
+            return HttpResponse('修改失败')
         else:
             user.set_password(npwd)
+
+        if qphone == user.phone and len(qphone) != 11:
+            return HttpResponse('修改失败')
+        else:
+            user.phone = qphone
             user.save()
-            return HttpResponse("修改成功")
+            return HttpResponse('修改成功')
+
+
+#一级分类显示
+def my_content(req):
+    #Category,Page
+    user = req.user
+    u_name = user.username
+    category = Category.objects.all()
+    page = Page.objects.all()
+    for i in page:
+        i.len_name = len(i.name)
+        # print(type(i.name))
+        pname = i.name
+        i.names = pname[0:6] + "..."
+    return render(req,'my_content.html',locals())
+
+
+#分类下的电影显示
+def my_contentpage(req,cid):
+    user = req.user
+    print(user)
+    u_name = user.username
+    category = Category.objects.all()
+    page = Page.objects.filter(category_id = cid)
+    for i in page:
+        i.len_name = len(i.name)
+        # print(type(i.name))
+        pname = i.name
+        i.names = pname[0:6] + "..."
+    print(page[0].len_name)
+    return render(req,'my_content.html',locals())
+
+
+# 搜索功能的实现
+def my_query(req):
+    my_set =set()
+    if req.method == 'GET':
+        return render(req, 'my_content.html')
+    else:
+        params = req.POST
+        query = params.get('mquery')
+        # print(query)
+        page = Page.objects.filter(name__icontains = query)
+        print(page)
+        for i in page:
+            i.len_name = len(i.name)
+            pname = i.name
+            i.names = pname[0:6] + "..."
+    return render(req,'my_content.html',locals())
+
+
+#排行榜
+def seniority(req):
+    page = Page.objects.order_by('-views')[:5]
+    return render(req,'seniority.html',locals())
+
+
+#排行榜+redias缓存
+def seniority_test(request, id):
+
+    # 加入到周排行中
+    week_rank.add_rank(id)
+
+    page = Page.objects.get(pk=id)
+
+    # 获取前5的周点击排行
+    rank_ids = week_rank.get_week_rank_ids(5)
+    page = [Page.objects.get(pk=id_) for id_ in rank_ids]
+
+    return render(request, 'seniority.html', locals())

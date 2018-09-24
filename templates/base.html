@@ -11,6 +11,8 @@
     <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
     <script type="text/javascript" src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    {% block css %}
+    {% endblock %}
     {% block Js %}
     {% endblock %}
 </head>
@@ -23,9 +25,15 @@
 
 {% block content %}
 {% endblock %}
+<footer style="text-align:center;">
+    {% block footer %}
+        <hr>
+        <p>版本所有@NBteam</p>
+        <p>联系电话：66666666</p>
+        <p>公安备案：PC12138</p>
+    {% endblock %}
+</footer>
 
-{% block footer %}
-{% endblock %}
 
 {%block jscode%}
 {% endblock %}

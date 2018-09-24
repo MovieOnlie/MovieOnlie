@@ -1,0 +1,59 @@
+{%extends 'index.html'%}
+{% load staticfiles %}
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/my.css' %}">
+{% endblock %}
+{%block banner%}
+{#<div id="category">#}
+{#        <ul>#}
+{#            <li><a class="btn {% if cate.id == 0 %}btn-danger{% else %}btn-warning{% endif %}" href="/">全部</a></li>#}
+{#            {% for cate in category %}#}
+{#                <li><a class="btn {% if cate.id == cate.id %}btn-danger{% else %}btn-warning{% endif %}"#}
+{#                       href="">{{ cate.name }}</a></li>#}
+{#            {% endfor %}#}
+{#            <div class="clearfix"></div>#}
+{#        </ul>#}
+{#    </div>#}
+    <div id="category">
+        <ul>
+            <li><a class="btn {% if cate.id == 0 %}btn-danger{% else %}btn-warning{% endif %}" href="{% url 'my_content' %}">全部</a></li>
+            {% for cate in category %}
+                <li><a class="btn btn-warning"
+                       href="{% url 'my_contentpage' cate.id %}">{{ cate.name }}</a></li>
+            {% endfor %}
+            <div class="clearfix"></div>
+        </ul>
+    </div>
+        <div id="books" class="row" style="">
+        <ul>
+            {% for p in page %}
+                <li>
+                    <dl>
+                        <dt>
+                            <div style="width: 130px;height: 185px;overflow: hidden">
+                        <a href="{{ p.url }}"><img src="{{ p.icon }}"
+                                     width="130" height="185"></a>
+                            </div>
+                        </dt>
+                        <dd><a href="{{ p.url }}">
+                            {% if p.len_name < 6 %}
+                                {{ p.name }}
+                            {% else %}
+                                {{ p.names }}
+                            {% endif %}
+                        </a></dd>
+                        <dd><a class="btn btn-primary" href = "{% url 'seniority_test' p.id %}">开始播放</a></dd>
+                    </dl>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="clearfix"></div>
+{#    <div>#}
+{#    <ul>#}
+{#        {% for p in page %}#}
+{#        <li>{{ p.name }}</li>#}
+{#        {% endfor %}#}
+{#    </ul>#}
+{#    </div>#}
+{%endblock%}

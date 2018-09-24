@@ -1,7 +1,395 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce90def-5e7c-4c76-9f2a-fb6398cce3f0" name="Default" comment="" />
+    <list default="true" id="fce90def-5e7c-4c76-9f2a-fb6398cce3f0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/de_DE/LC_MESSAGES/django.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/de_DE/LC_MESSAGES/djangojs.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/en/LC_MESSAGES/django.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/en/LC_MESSAGES/djangojs.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/es_MX/LC_MESSAGES/django.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/es_MX/LC_MESSAGES/djangojs.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/eu/LC_MESSAGES/django.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/eu/LC_MESSAGES/djangojs.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/id_ID/LC_MESSAGES/django.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/id_ID/LC_MESSAGES/djangojs.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/ja/LC_MESSAGES/django.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/ja/LC_MESSAGES/djangojs.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/lt/LC_MESSAGES/django.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/lt/LC_MESSAGES/djangojs.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/nl_NL/LC_MESSAGES/django.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/nl_NL/LC_MESSAGES/djangojs.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/pl/LC_MESSAGES/django.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/pl/LC_MESSAGES/djangojs.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/pt_BR/LC_MESSAGES/django.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/pt_BR/LC_MESSAGES/djangojs.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/ru_RU/LC_MESSAGES/django.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/ru_RU/LC_MESSAGES/djangojs.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/zh_Hans/LC_MESSAGES/django.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/zh_Hans/LC_MESSAGES/djangojs.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-image-gallery/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-modal/img/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2-spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2x2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/.tx/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/adminx.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/filters.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/layout.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/de_DE/LC_MESSAGES/django.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/de_DE/LC_MESSAGES/djangojs.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/en/LC_MESSAGES/django.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/en/LC_MESSAGES/djangojs.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/es_MX/LC_MESSAGES/django.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/es_MX/LC_MESSAGES/djangojs.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/eu/LC_MESSAGES/django.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/eu/LC_MESSAGES/djangojs.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/id_ID/LC_MESSAGES/django.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/id_ID/LC_MESSAGES/djangojs.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/ja/LC_MESSAGES/django.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/ja/LC_MESSAGES/djangojs.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/lt/LC_MESSAGES/django.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/lt/LC_MESSAGES/djangojs.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/nl_NL/LC_MESSAGES/django.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/nl_NL/LC_MESSAGES/djangojs.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/pl/LC_MESSAGES/django.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/pl/LC_MESSAGES/djangojs.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/pt_BR/LC_MESSAGES/django.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/pt_BR/LC_MESSAGES/djangojs.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/ru_RU/LC_MESSAGES/django.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/ru_RU/LC_MESSAGES/djangojs.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/zh_Hans/LC_MESSAGES/django.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/locale/zh_Hans/LC_MESSAGES/djangojs.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/actions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/aggregation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/ajax.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/auth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/batch.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/bookmark.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/chart.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/comments.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/details.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/editable.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/export.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/filters.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/images.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/inline.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/language.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/layout.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/mobile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/multiselect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/passwords.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/portal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/quickfilter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/quickform.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/refresh.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/relate.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/relfield.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/sitemenu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/sortablelist.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/themes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/topnav.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/wizard.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/plugins/xversion.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/sites.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/css/themes/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/css/themes/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/css/themes/bootstrap-xadmin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/css/xadmin.form.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/css/xadmin.main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/css/xadmin.mobile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/css/xadmin.page.dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/css/xadmin.plugin.aggregation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/css/xadmin.plugin.formset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/css/xadmin.plugin.quickfilter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/css/xadmin.plugins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/css/xadmin.responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/css/xadmin.widget.editable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/css/xadmin.widget.select-transfer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.page.dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.page.form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.page.list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.batch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.bookmark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.details.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.editable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.filters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.formset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.portal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.quick-form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.quickfilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.refresh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.revision.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.sortablelist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.plugin.themes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.responsive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.widget.datetime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.widget.multiselect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.widget.select-transfer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/js/xadmin.widget.select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/autotype/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.kr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs-latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.sw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-modal/css/bootstrap-modal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-modal/js/bootstrap-modalmanager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-multiselect/js/bootstrap-multiselect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-timepicker/css/bootstrap-timepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap-timepicker/js/bootstrap-timepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.colorhelpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.aggregate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.categories.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.crosshair.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.errorbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.fillbetween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.navigate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.threshold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/flot/jquery.flot.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.effect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.effect.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.mouse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.sortable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/jquery-ui/jquery.ui.widget.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/load-image/load-image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/load-image/load-image.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_pt-PT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_ua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/select2/select2_locale_zh-hans.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/selectize/selectize.bootstrap2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/selectize/selectize.bootstrap3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/selectize/selectize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/selectize/selectize.default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/selectize/selectize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/selectize/selectize.legacy.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/selectize/selectize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/snapjs/snap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/snapjs/snap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/static/xadmin/vendor/snapjs/snap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/auth/password_reset/complete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/auth/password_reset/confirm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/auth/password_reset/done.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/auth/password_reset/email.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/auth/password_reset/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/auth/user/add_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/auth/user/change_password.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/base_site.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/comm.top.setlang.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/comm.top.theme.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/comm.top.topnav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/modal_list.left_navbar.quickfilter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/model_form.before_fieldsets.wizard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/model_form.submit_line.wizard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/model_list.nav_form.search_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/model_list.nav_menu.bookmarks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/model_list.nav_menu.filters.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/model_list.results_bottom.actions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/model_list.results_top.charts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/model_list.results_top.date_hierarchy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/model_list.top_toolbar.exports.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/model_list.top_toolbar.layouts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/model_list.top_toolbar.refresh.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/blocks/model_list.top_toolbar.saveorder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/edit_inline/accordion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/edit_inline/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/edit_inline/blank.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/edit_inline/one.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/edit_inline/stacked.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/edit_inline/tab.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/edit_inline/tabular.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/filters/char.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/filters/checklist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/filters/date.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/filters/fk_search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/filters/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/filters/number.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/filters/quickfilter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/filters/rel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/forms/transfer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/grids/thumbnails.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/includes/box.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/includes/pagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/includes/sitemenu_accordion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/includes/sitemenu_default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/includes/submit_line.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/includes/toggle_back.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/includes/toggle_menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/layout/field_value.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/layout/field_value_td.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/layout/fieldset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/layout/input_group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/layout/td-field.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/app_index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/batch_change_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/dashboard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/invalid_setup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/logged_out.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/model_dashboard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/model_delete_confirm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/model_delete_selected_confirm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/model_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/model_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/model_history.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/model_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/quick_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/quick_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/recover_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/recover_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/revision_diff.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/views/revision_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/widgets/addform.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/widgets/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/widgets/chart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/widgets/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templates/xadmin/widgets/qbutton.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/templatetags/xadmin_tags.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/vendors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/views/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/views/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/views/dashboard.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/views/delete.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/views/detail.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/views/edit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/views/form.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/views/list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/views/website.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extapp/xadmin/widgets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movieapp/adminx.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myapp/helper/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myapp/helper/week_rank.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/my.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/seniority.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/errors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/my_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/seniority.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/NBteam.iml" afterPath="$PROJECT_DIR$/.idea/NBteam.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MovieOnline/settings.py" afterPath="$PROJECT_DIR$/MovieOnline/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MovieOnline/urls.py" afterPath="$PROJECT_DIR$/MovieOnline/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieapp/models.py" afterPath="$PROJECT_DIR$/movieapp/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieapp/url.py" afterPath="$PROJECT_DIR$/movieapp/url.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movieapp/views.py" afterPath="$PROJECT_DIR$/movieapp/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/modify.html" afterPath="$PROJECT_DIR$/templates/modify.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,31 +410,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="personal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/personal.html">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movieapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="783">
+              <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modify.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/modify.html">
+      <file leaf-file-name="my_content.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/my_content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1107">
+              <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -55,8 +433,52 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movieapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="195" column="39" lean-forward="false" selection-start-line="195" selection-start-column="39" selection-end-line="195" selection-end-column="39" />
+            <state relative-caret-position="-324">
+              <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#643#787#0" expanded="false" />
+                <element signature="e#1735#2237#0" expanded="false" />
+                <element signature="e#2269#3961#0" expanded="false" />
+                <element signature="e#3999#4199#0" expanded="false" />
+                <element signature="e#4231#5552#0" expanded="false" />
+                <element signature="e#5583#5661#0" expanded="false" />
+                <element signature="e#5695#5895#0" expanded="false" />
+                <element signature="e#5930#6503#0" expanded="false" />
+                <element signature="e#6536#6857#0" expanded="false" />
+                <element signature="e#6903#7269#0" expanded="false" />
+                <element signature="e#7305#7746#0" expanded="false" />
+                <element signature="e#7924#8174#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapp/helper/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="week_rank.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapp/helper/week_rank.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MovieOnline/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1331">
+              <caret line="179" column="0" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,8 +487,18 @@
       <file leaf-file-name="url.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movieapp/url.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="351">
+              <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seniority.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/seniority.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1161">
+              <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -78,6 +510,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -95,20 +528,31 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/movieapp/my_util.py" />
-        <option value="$PROJECT_DIR$/movieapp/models.py" />
         <option value="$USER_HOME$/Desktop/python基础千行.py" />
         <option value="$PROJECT_DIR$/movieapp/search_views.py" />
         <option value="$PROJECT_DIR$/movieapp/whoosh_cn_backend.py" />
         <option value="$PROJECT_DIR$/templates/search/indexes/movieapp/page_text.txt" />
         <option value="$PROJECT_DIR$/movieapp/search_indexes.py" />
-        <option value="$PROJECT_DIR$/MovieOnline/settings.py" />
         <option value="$PROJECT_DIR$/templates/search/search.html" />
-        <option value="$PROJECT_DIR$/MovieOnline/urls.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/personal.html" />
-        <option value="$PROJECT_DIR$/movieapp/url.py" />
         <option value="$PROJECT_DIR$/templates/modify.html" />
+        <option value="$PROJECT_DIR$/MovieOnline/urls.py" />
+        <option value="$PROJECT_DIR$/movieapp/adminx.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/my_contentpage.html" />
+        <option value="$PROJECT_DIR$/movieapp/models.py" />
+        <option value="$PROJECT_DIR$/static/css/my.css" />
+        <option value="$PROJECT_DIR$/templates/errors.html" />
+        <option value="$PROJECT_DIR$/templates/my_query.html" />
+        <option value="$PROJECT_DIR$/static/css/seniority.css" />
+        <option value="$PROJECT_DIR$/myapp/helper/week_rank.py" />
+        <option value="$PROJECT_DIR$/movieapp/url.py" />
+        <option value="$PROJECT_DIR$/myapp/helper/__init__.py" />
+        <option value="$PROJECT_DIR$/templates/my_content.html" />
+        <option value="$PROJECT_DIR$/templates/seniority.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/movieapp/views.py" />
+        <option value="$PROJECT_DIR$/MovieOnline/settings.py" />
       </list>
     </option>
   </component>
@@ -119,10 +563,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-99" />
-    <option name="y" value="18" />
-    <option name="width" value="1370" />
-    <option name="height" value="730" />
+    <option name="x" value="-22" />
+    <option name="y" value="14" />
+    <option name="width" value="1320" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,8 +584,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,30 +596,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NBteam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NBteam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/python基础千行.py" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/GZQDPro-master (1)/GZQDPro-master" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="D:/New Folder/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="js-jscs-nodeInterpreter" value="D:\New Folder\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\NBteam\templates" />
       <recent name="D:\NBteam\static\uploads\icons" />
+      <recent name="D:\NBteam\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\NBteam\templates" />
+      <recent name="D:\NBteam\extapp" />
       <recent name="D:\NBteam\static\css" />
       <recent name="D:\NBteam\static" />
       <recent name="D:\NBteam" />
-      <recent name="D:\NBteam\movieapp" />
     </key>
   </component>
   <component name="RunManager" selected="Django tests.Test: templates.search.search.html">
@@ -466,13 +925,14 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-99" y="18" width="1370" height="730" extended-state="0" />
-    <editor active="false" />
+    <frame x="-22" y="14" width="1320" height="780" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19312978" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332796" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -482,10 +942,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1631579" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8491228" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -497,132 +956,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/search/indexes/movieapp/category_text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieOnline/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4401">
-          <caret line="163" column="1" lean-forward="false" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
-          <folding>
-            <element signature="e#315#324#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movieapp/search_views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movieapp/search_indexes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/search/indexes/movieapp/category_text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieOnline/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/search/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movieapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movieapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movieapp/url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="57" lean-forward="true" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/swiper.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movieapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieOnline/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
-          <folding>
-            <element signature="e#315#324#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/md5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base/base.html" />
-    <entry file="file://$PROJECT_DIR$/templates/email.html" />
     <entry file="file://$PROJECT_DIR$/templates/get_bankcard.html" />
     <entry file="file://$PROJECT_DIR$/templates/get_yingxiong.html" />
     <entry file="file://$PROJECT_DIR$/templates/get_ying_xiong.html" />
@@ -661,13 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movieapp/my_util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/python基础千行.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
@@ -689,24 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movieapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieOnline/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="63" column="20" lean-forward="false" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-          <folding>
-            <element signature="e#315#324#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movieapp/whoosh_cn_backend.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2700">
@@ -718,13 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MovieOnline/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -756,22 +1063,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="72" column="42" lean-forward="true" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/static/uploads/icons/TIM图片20180412110550.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/uploads/icons/20170115_IMG_1004.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/uploads/icons/20170102_IMG_0756.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/personal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="27">
           <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extapp/xadmin/.tx/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movieapp/my_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/uploads/icons/timg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/uploads/icons/mrtx.gif" />
+    <entry file="file://$PROJECT_DIR$/templates/my_contentpage.html" />
+    <entry file="file://$PROJECT_DIR$/MovieOnline/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/errors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/modify.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/my.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movieapp/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/seniority.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/remote_sources/-1488938198/1622979334/django/db/models/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="967" column="35" lean-forward="false" selection-start-line="967" selection-start-column="24" selection-end-line="967" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movieapp/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -779,27 +1174,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/modify.html">
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movieapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movieapp/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/my_content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="195" column="39" lean-forward="false" selection-start-line="195" selection-start-column="39" selection-end-line="195" selection-end-column="39" />
+        <state relative-caret-position="1107">
+          <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="82" column="12" lean-forward="false" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+          <folding>
+            <element signature="n#block#2;n#!!top" expanded="false" />
+            <element signature="n#block#4;n#!!top" expanded="false" />
+            <element signature="n#block#5;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/helper/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/helper/week_rank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/movieapp/url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        <state relative-caret-position="351">
+          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/seniority.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MovieOnline/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1331">
+          <caret line="179" column="0" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movieapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#643#787#0" expanded="false" />
+            <element signature="e#1735#2237#0" expanded="false" />
+            <element signature="e#2269#3961#0" expanded="false" />
+            <element signature="e#3999#4199#0" expanded="false" />
+            <element signature="e#4231#5552#0" expanded="false" />
+            <element signature="e#5583#5661#0" expanded="false" />
+            <element signature="e#5695#5895#0" expanded="false" />
+            <element signature="e#5930#6503#0" expanded="false" />
+            <element signature="e#6536#6857#0" expanded="false" />
+            <element signature="e#6903#7269#0" expanded="false" />
+            <element signature="e#7305#7746#0" expanded="false" />
+            <element signature="e#7924#8174#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
